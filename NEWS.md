@@ -1,5 +1,15 @@
 # HEAD
 
+# v 2.0.0
+* Remove the following matchers:
+  * assign_to
+  * respond_with_content_type
+  * query_the_database
+  * validate_format_of
+  * have_sent_email
+  * strong_parameters_matcher
+  * delegate_method
+
 # v 1.5.1
 * Bump version depedency of Bourne to allow for Mocha upgrade.
 * Should fix incompatiblity with MiniTest.
